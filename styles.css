@@ -1,6 +1,43 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+/* This is the css file for the WATS1010 Basic CSS Assignment */
 
-h1 {
-    color: green;
+body{
+
 }
+
+/* This is the style attributes for the page-header section. */
+.page-header {
+}
+
+/* This is the style attributes for the more-info section. */
+.more-info {}
+
+img{
+}
+
+/* This is the style attributes for the info-links section. */
+.info-links {}
+
+/* This is the style attributes for the social-links section. */
+.social-links {}
+
+/* This is the style attributes for the content section. */
+#content {}
+
+/* This is the style attributes for the poem section. */
+.poem {
+    list-style: none;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* This is the style attributes for the content-footer section. */
+.content-footer {}
+
+/* This is the style attributes for the page-footer section. */
+.page-footer {}
+
+/* This is the style attributes for the citation section. */
+.citation {}
+
+/* This is the style attributes for the page-credits section. */
+.page-credits {}
