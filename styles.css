@@ -1,43 +1,146 @@
 /* This is the css file for the WATS1010 Basic CSS Assignment */
 
-body{
 
+/* Default styling for the page. */
+
+body {
+    font-family: "Helvetica";
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-/* This is the style attributes for the page-header section. */
+
+/* This is the style attributes for the page-header h1 section. */
+
 .page-header {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    line-height: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("images/Xanadu_on_Map_of_Asia.JPG");
+    border-radius: 25px;
 }
 
-/* This is the style attributes for the more-info section. */
-.more-info {}
 
-img{
-}
+/* This is the style attributes for the page-header h1 section. */
 
-/* This is the style attributes for the info-links section. */
-.info-links {}
-
-/* This is the style attributes for the social-links section. */
-.social-links {}
-
-/* This is the style attributes for the content section. */
-#content {}
-
-/* This is the style attributes for the poem section. */
-.poem {
-    list-style: none;
+h1 {
     text-align: center;
     font-family: cursive;
+    font-weight: bold;
+    font-size: 400%;
 }
 
-/* This is the style attributes for the content-footer section. */
-.content-footer {}
 
-/* This is the style attributes for the page-footer section. */
-.page-footer {}
+/* This is the style attributes for the page-header small section. */
 
-/* This is the style attributes for the citation section. */
-.citation {}
+.page-header small {
+    font-weight: normal;
+}
+
+
+/* General styling for more-info section. */
+
+.more-info {
+    float: right;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+/* This is the style attributes for the more-info section. */
+
+h2 {
+    font-weight: normal;
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+    top: 1135px;
+    text-transform: uppercase;
+}
+
+
+/* Styling for the image used in more-info.
+I don't care for this background, but it allows for readability */
+
+.more-info img {
+    width: 500px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    display: flex;
+}
+
+
+/* This is the style attributes for the info-links section. */
+
+.info-links li {
+    text-align: left;
+    list-style: none;
+}
+
+
+/* This is the style attributes for the social-links section. */
+
+.social-links li {
+    text-align: center;
+    display: inline;
+}
+
+
+/* Styling to set first letter of the poem apart. */
+
+.poem::first-letter {
+    font-family: cursive;
+    font-size: 500%;
+    color: #000000;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+
+/* This is the style attributes for the poem section. */
+
+.poem {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-image: url("images/sand.jpg");
+    background-size: cover;
+    line-height: 18px;
+    display: block;
+    border-radius: 25px;
+    font-size: 100%
+}
+
+.poem li {
+    list-style: none;
+    font-family: "Palatino";
+    color: black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+    text-align: left;
+    line-height: 15pt;
+    position: relative;
+}
+
+.page-footer li {
+    list-style: none;
+    margin-left: -40px;
+}
+
 
 /* This is the style attributes for the page-credits section. */
-.page-credits {}
+
+.page-credits {
+    text-align: center;
+    background-color: #aaaaaa;
+    color: #eeeeee;
+    border-radius: 25px;
+}
