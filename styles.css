@@ -60,7 +60,7 @@ h2 {
     display: flex;
     margin: 10px;
     position: relative;
-    left: 155px;
+    left: 150px;
     top: 925px;
     text-transform: uppercase;
 }
@@ -77,23 +77,21 @@ I don't care for this background, but it allows for readability */
     display: flex;
 }
 
-
 /* This is the style attributes for the info-links section. */
 
 .info-links li {
-    text-align: left;
     list-style: none;
     display: inline;
+    padding-right: 25px;
 }
 
 
 /* This is the style attributes for the social-links section. */
 
 .social-links li {
-    text-align: center;
     display: inline;
     padding: inherit;
-    padding-right: 65px;
+    padding-right: 60px;
 }
 
 
@@ -135,6 +133,7 @@ I don't care for this background, but it allows for readability */
 
 .citation {
     padding-left: 10px;
+    display: inline;
 }
 
 .page-footer li {
