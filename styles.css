@@ -4,7 +4,7 @@
 /* Default styling for the page. */
 
 body {
-    font-family: "Helvetica";
+    font-family: "Helvetica Neue";
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -74,7 +74,7 @@ I don't care for this background, but it allows for readability */
     margin: auto;
     padding-top: 140px;
     padding-bottom: 120px;
-    display: flex;
+    display: block;
 }
 
 /* This is the style attributes for the info-links section. */
@@ -83,6 +83,7 @@ I don't care for this background, but it allows for readability */
     list-style: none;
     display: inline;
     padding-right: 25px;
+    margin-top: 200px;
 }
 
 
@@ -118,7 +119,9 @@ I don't care for this background, but it allows for readability */
     line-height: 18px;
     display: block;
     border-radius: 25px;
-    font-size: 100%
+    font-size: 100%;
+    width: 600px;
+    height: 1100px;
 }
 
 .poem li {
@@ -140,6 +143,14 @@ I don't care for this background, but it allows for readability */
     list-style: none;
     margin-left: -40px;
     padding-left: 10px;
+}
+
+.citation {
+    line-height: 20px;
+}
+
+.page-footer {
+    line-height: 20px;
 }
 
 
