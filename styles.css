@@ -1,6 +1,160 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+/* This is the css file for the WATS1010 Basic CSS Assignment */
+
+
+/* Default styling for the page. */
+
+body {
+    font-family: "Helvetica Neue";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* This is the style attributes for the page-header h1 section. */
+
+.page-header {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    line-height: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("images/Xanadu_on_Map_of_Asia.JPG");
+    border-radius: 25px;
+}
+
+
+/* This is the style attributes for the page-header h1 section. */
 
 h1 {
-    color: green;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+
+/* This is the style attributes for the page-header small section. */
+
+.page-header small {
+    font-weight: normal;
+}
+
+
+/* General styling for more-info section. */
+
+.more-info {
+    float: right;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+/* This is the style attributes for the more-info section. */
+
+h2 {
+    font-weight: normal;
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: 150px;
+    top: 925px;
+    text-transform: uppercase;
+}
+
+
+/* Styling for the image used in more-info.
+I don't care for this background, but it allows for readability */
+
+.more-info img {
+    width: 500px;
+    margin: auto;
+    padding-top: 140px;
+    padding-bottom: 120px;
+    display: block;
+}
+
+/* This is the style attributes for the info-links section. */
+
+.info-links li {
+    list-style: none;
+    display: inline;
+    padding-right: 25px;
+    margin-top: 200px;
+}
+
+
+/* This is the style attributes for the social-links section. */
+
+.social-links li {
+    display: inline;
+    padding: inherit;
+    padding-right: 60px;
+}
+
+
+/* Styling to set first letter of the poem apart. */
+
+.poem::first-letter {
+    font-family: cursive;
+    font-size: 500%;
+    color: #000000;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+
+/* This is the style attributes for the poem section. */
+
+.poem {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-image: url("images/hiking-the-sand-dunes.jpg");
+    background-size: cover;
+    line-height: 18px;
+    display: block;
+    border-radius: 25px;
+    font-size: 100%;
+    width: 600px;
+    height: 1100px;
+}
+
+.poem li {
+    list-style: none;
+    font-family: "Palatino";
+    color: black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+    text-align: left;
+    line-height: 15pt;
+    position: relative;
+}
+
+.citation {
+    padding-left: 10px;
+    display: inline;
+}
+
+.page-footer li {
+    list-style: none;
+    margin-left: -40px;
+    padding-left: 10px;
+}
+
+.page-footer {
+    line-height: 20px;
+}
+
+
+/* This is the style attributes for the page-credits section. */
+
+.page-credits {
+    text-align: center;
+    background-color: #aaaaaa;
+    color: #eeeeee;
+    border-radius: 25px;
 }
