@@ -114,7 +114,7 @@ I don't care for this background, but it allows for readability */
     border-color: black;
     padding-top: 30px;
     padding-bottom: 10px;
-    background-image: url("images/sand.jpg");
+    background-image: url("images/hiking-the-sand-dunes.jpg");
     background-size: cover;
     line-height: 18px;
     display: block;
@@ -143,10 +143,6 @@ I don't care for this background, but it allows for readability */
     list-style: none;
     margin-left: -40px;
     padding-left: 10px;
-}
-
-.citation {
-    line-height: 20px;
 }
 
 .page-footer {
